@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <include file="Public/title" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <include file="Public/head" />
+    <script>
+        function  checkTele(){
+ /*         var xmlHttp;
+          try{    // Firefox, Opera 8.0+, Safari
+          xmlHttp=new XMLHttpRequest();    
+             }
+          catch(e){   // Internet Explorer
+                try{
+           xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
+                   }catch (e){
+                        try{
+                        xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+                           }
+                    catch (e){
+                      alert("您的浏览器不支持AJAX！");
+                      return false;
+                             } 
+                             }
+                  } */
+                      var tele=$("#telephone").val();
+                      var para="t="+tele;
+                      $.ajax({
+                      type: "GET",
+                      url: "checkTele",
+                      data: para,
+                      success: function(msg){
+                      document.getElementById("tip").innerHTML=msg;                   }});
+
+
+/*          xmlHttp.onreadystatechange=function() {
+            if (xmlHttp.readyState==4 && xmlHttp.status==200)
+          {    document.getElementById("tip").innerHTML=xmlHttp.responseText;
+            }
+          }
+           var tele = document.getElementById("telephone").value;
+            xmlHttp.open("GET", "checkTele?t="+tele, true);
+
+            xmlHttp.send();*/
+
+        }
+        function checkAlias(){
+            var user = $("#aliasname").val();
+            $.getJSON("checkAlias",{u: user},function (names){
+              for (var i = 0; i <= names.length; i++) {
+                                              alert(names);
+                document.getElementById(tip1).innerHTML += names[i].aliasname+"&nbsp;&nbsp"
+              }
+            })
+        }
+        function check(){
+            var password = document.getElementById("password").value;
+            var repsword = document.getElementById("newpassword").value;
+        if(password == ''||repsword==''){
+        alert('密码不能为空');
+            return false;
+        }
+        if(password != repsword) {
+        alert("两次密码不同，请重新输入");
+            return false;
+        }
+       return true;
+        }
+    </script>
+  </head>
+  <body>
+    <div class="modal-shiftfix">
+      <!-- Navigation -->
+      <div class="navbar navbar-fixed-top scroll-hide">
+        <div class="container-fluid top-bar">
+            <a href=""><img width="150px" id="logo_header" alt="80x80" src="__APP__/Public/assets_h/images/diuba_logo.png"></a>
+        </div>
+       
+      </div>
+      <div class="container-fluid main-content" style="min-height:560px">
+          <div class="col-md-10  col-xs-12 col-sm-10 col-sm-offset-1 col-md-offset-1 col-xs-offset-1"   >
+              <h2 style="color: #03c2f9; margin-bottom: 0px;padding-bottom: 0px;"><p class="bg-white" style="margin-bottom: 10px;margin-top: 10px" >个人信息</p></h2>
+              <h4><p class="bg-info" style="margin-top:0px ;padding:10px" ><a href="{:U('Index/index')}" style="color: white">首页&nbsp;</a>/&nbsp;注册</p></h4>
+
+              <div class="col-md-3  col-xs-12 col-sm-6 col-sm-offset-3 col-md-offset-4 col-xs-offset-2" >
+                  <form  method="post"  class="form-horizontal" action="{:U(register)}"  enctype="multipart/form-data" onsubmit="return check();" >
+
+                      <input class="form-control" placeholder="手机号(必填)" type="text" id="telephone" name="telephone" required pattern="[0-9]{11}" title="请填写正确的手机号" onblur="checkTele()"> 
+                       <span id="tip" style="font-size: 12px;color:red;"></span>
+                       <br>
+                      <input class="form-control" placeholder="用户名(必填)" type="text" id="aliasname" name="aliasname" required pattern="[0-9a-zA-Z_]{6,12}"  onblur="checkAlias()">
+                       <span id="tip1" style="font-size: 12px;color:red;"></span>
+                      <br>
+                      <input class="form-control" placeholder="密码(必填)" type="password" id="password" name="password" required>
+                      <br>
+                      <input class="form-control" placeholder="确认密码(必填)" type="password" id="newpassword" name="newpassword" required>
+                      <br>
+                      <input class="form-control" placeholder="邮箱(必填)" type="email" id="email" name="email" required>
+                      <br>
+                      
+                      <div class="fileupload fileupload-new" data-provides="fileupload">
+                      <input type="hidden" value=""  name="photo" >
+                          <div class="fileupload-new img-thumbnail"
+                               style="width: 110px; height: 110px;background-color:#5f5f5f">
+                              <img src="">
+                          </div>
+                          <div class="fileupload-preview fileupload-exists img-thumbnail"
+                               style="width: 110px; max-height: 110px;"></div>
+                          
+                    
+                    <span class="btn btn-default btn-file">
+                        <span class="fileupload-new">选择</span>
+                        <span class="fileupload-exists">重选</span><input type="file" name="photo">
+                        </span>
+                          <span>
+                        <a class="btn btn-default fileupload-exists" data-dismiss="fileupload"
+                                  href="#">撤销</a>
+                        </span>
+                      </div>
+                      <input class="btn btn-block btn-info "  type="submit" value="注 册">
+
+                  </form>
+              </div>
+          </div>
+           
+          
+     
+      </div>
+        <include file="Public/footer" />    
+    </div>
+  </body>
+
+</html>

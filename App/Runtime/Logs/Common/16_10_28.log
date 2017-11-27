@@ -1,0 +1,12 @@
+[ 2016-10-28T13:32:19+08:00 ] ::1 /diuba/Public/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-28T13:33:08+08:00 ] ::1 /diuba/Public/style/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载模块:Public
+

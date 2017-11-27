@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <include file="Public/title" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <include file="Public/head" />
+    <script>
+        function check(){
+            var password = document.getElementById("password").value;
+            var repsword = document.getElementById("newpassword").value;
+        if(password == ''||repsword==''){
+        alert('密码不能为空');
+            return false;
+        }
+        if(password != repsword) {
+        alert("两次密码不同，请重新输入");
+            return false;
+        }
+       return true;
+        }
+    </script>
+  </head>
+  <body>
+    <div class="modal-shiftfix">
+      <!-- Navigation -->
+      <div class="navbar navbar-fixed-top scroll-hide">
+        <div class="container-fluid top-bar">
+            <a href=""><img width="150px" id="logo_header" alt="80x80" src="__APP__/Public/assets_h/images/diuba_logo.png"></a>
+        </div>
+       
+      </div>
+      <div class="container-fluid main-content" style="min-height:560px">
+          <div class="col-md-10  col-xs-12 col-sm-10 col-sm-offset-1 col-md-offset-1 col-xs-offset-1"   >
+              <h2 style="color: #03c2f9; margin-bottom: 0px;padding-bottom: 0px;"><p class="bg-white" style="margin-bottom: 10px;margin-top: 10px" >个人信息</p></h2>
+              <h4><p class="bg-info" style="margin-top:0px ;padding:10px" ><a href="{:U('Index/index')}" style="color: white">首页&nbsp;</a>/&nbsp;修改</p></h4>
+
+
+        <div class="col-md-3  col-xs-12 col-sm-6 col-sm-offset-3 col-md-offset-4 col-xs-offset-2" >
+            <form  method="post"  class="form-horizontal" action="{:U(doUpdate)}"  enctype="multipart/form-data" onsubmit="return check();" >
+            <table id="users" class="table table-responsive">
+            <tr>
+            <input  type="hidden"  name="id" value="{$userInfos.id}">
+            </tr>
+            <tr>
+            <td style="overflow: hidden;display: block;width: 90px">用户别名：</td>
+            <td><input class="form-control" type="text"  name="aliasname" value="{$userInfos.aliasname}"></td>
+            </tr>
+            <tr>
+            <td style="overflow: hidden;display: block;width: 90px">联系电话：</td>
+            <td><input class="form-control"  name="telephone"  type="text" value="{$userInfos.telephone}"></td>
+            </tr>
+            <tr>
+            <td style="overflow: hidden;display: block;width: 90px">邮箱：</td>
+            <td><input class="form-control"  name="email" type="email" value="{$userInfos.email}"></td>
+            </tr>
+
+            </table>  
+                <div class="fileupload fileupload-new" data-provides="fileupload">
+                   <input type="hidden" value="{$userInfos.photo}" name="photo" >
+                          <div class="fileupload-new img-thumbnail"
+                               style="width: 110px; height: 110px;background-color:#5f5f5f">
+                              <img src="__PUBLIC__/Uploads/photo/{$userInfos.photo}">
+                          </div>
+                          <div class="fileupload-preview fileupload-exists img-thumbnail"
+                               style="width: 110px; max-height: 110px;"></div>
+                          
+                      
+                    <span class="btn btn-default btn-file">
+                        <span class="fileupload-new">选择</span>
+                        <span class="fileupload-exists">重选</span>
+                        <input type="file" name="file" value="{$userInfos.photo}">
+                      </span>
+                      <span>
+                        <a class="btn btn-default fileupload-exists" data-dismiss="fileupload"
+                                  href="#">撤销</a>
+                        </span>
+                      </div> 
+             <tr><td><button class="btn btn-danger" style="width: 120%; margin-top: 20px; text-align:center" type="submit">提交</button></td></tr>
+            </form>
+             </div>
+          </div>
+           
+          
+     
+      </div>
+        <include file="Public/footer" />    
+    </div>
+  </body>
+
+</html>

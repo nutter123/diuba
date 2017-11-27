@@ -1,0 +1,2246 @@
+[ 2016-10-31T15:50:12+08:00 ] ::1 /diuba/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\diuba\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `diuba_lost` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `diuba_find` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `diuba_lost` ORDER BY id   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `diuba_find` ORDER BY id   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `diuba_lost` WHERE ( isfinish=0 ) ORDER BY isfirst desc,id desc LIMIT 4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `diuba_find` WHERE ( isfinish=0 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: findnum C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 142 行.
+NOTIC: [8] Undefined variable: lostnum C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 143 行.
+NOTIC: [8] Undefined variable: all C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2016-10-31T15:50:18+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001581s ]
+
+[ 2016-10-31T15:50:50+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137511' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`createtime`,`photo`) VALUES ('18941137511','wangxu123','4297f44b13955235245b2497399d7a93','92731@qq','2016-10-31',NULL) [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007866s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003321s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2016-10-31T15:50:51+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2016-10-31T16:01:37+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2016-10-31T16:02:16+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171828' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`createtime`,`photo`) VALUES ('12372171828','djhakdh','cf79ae6addba60ad018347359bd144d2','disfua2@qq','2016-10-31',NULL) [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004880s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2016-10-31T16:02:18+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001511s ]
+
+[ 2016-10-31T16:08:59+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2016-10-31T16:09:27+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '31231232131' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`createtime`,`photo`) VALUES ('31231232131','dfafdadfa','adbf5a778175ee757c34d0eba4e932bc','dsada@qq','2016-10-31',NULL) [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002554s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2016-10-31T16:09:28+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2016-10-31T16:10:01+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2016-10-31T16:21:01+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002041s ]
+
+[ 2016-10-31T16:21:27+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2016-10-31T16:28:19+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2016-10-31T16:28:19+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002143s ]
+
+[ 2016-10-31T16:28:35+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171828' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('12372171828','wangxu','202cb962ac59075b964b07152d234b70','8872@qq',NULL,'2016-10-31') [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006640s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002727s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2016-10-31T16:28:36+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001298s ]
+
+[ 2016-10-31T16:33:08+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137571' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001802s ]
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('18941137571','1231231','202cb962ac59075b964b07152d234b70','213@qq',NULL,'2016-10-31') [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005032s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001809s ]
+
+[ 2016-10-31T16:33:09+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2016-10-31T16:35:52+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137511' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('18941137511','213312','202cb962ac59075b964b07152d234b70','1231@123',NULL,'2016-10-31') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007963s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003993s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2016-10-31T16:35:53+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001508s ]
+
+[ 2016-10-31T16:46:35+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2016-10-31T16:46:52+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171828' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001636s ]
+
+[ 2016-10-31T16:47:04+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171811' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('12372171811','123sss','202cb962ac59075b964b07152d234b70','123@qq',NULL,'2016-10-31 16:47:04') [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003356s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2016-10-31T16:47:05+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2016-10-31T16:50:18+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137521' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('18941137521','123jdhsa','202cb962ac59075b964b07152d234b70','hdash@qq',NULL,'2016-10-31 16:50:18') [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003049s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2016-10-31T16:50:19+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2016-10-31T16:50:19+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001450s ]
+
+[ 2016-10-31T16:53:21+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001627s ]
+
+[ 2016-10-31T16:53:37+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137512' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('18941137512','2131jjs','202cb962ac59075b964b07152d234b70','ejajs@qq',NULL,'2016-10-31 16:53:37') [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003531s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2016-10-31T16:53:38+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2016-10-31T16:53:38+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001797s ]
+
+[ 2016-10-31T16:55:46+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137972' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: photo C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 18 行.
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('18941137972','1231ds','202cb962ac59075b964b07152d234b70','123@ll',NULL,'2016-10-31 16:55:46') [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2016-10-31T16:55:47+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2016-10-31T16:57:03+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2016-10-31T16:57:29+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137582' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: photo C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 18 行.
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('18941137582','1232jkhsad','202cb962ac59075b964b07152d234b70','231@qq',NULL,'2016-10-31 16:57:29') [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2016-10-31T16:57:30+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2016-10-31T17:00:19+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2016-10-31T17:00:36+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137592' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('18941137592','jsdhakh','202cb962ac59075b964b07152d234b70','jdshfks@hdf',NULL,'2016-10-31 17:00:36') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2016-10-31T17:00:37+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2016-10-31T17:02:58+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171828' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-10-31T17:03:07+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171821' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('12372171821','21748jhjfsa','202cb962ac59075b964b07152d234b70','dksjal@jkd',NULL,'2016-10-31 17:03:07') [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2016-10-31T17:03:09+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001316s ]
+
+[ 2016-10-31T17:03:32+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2016-10-31T17:03:33+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2016-10-31T17:03:38+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001684s ]
+
+[ 2016-10-31T17:18:38+08:00 ] ::1 /diuba/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\diuba\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `diuba_lost` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `diuba_find` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `diuba_lost` ORDER BY id   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `diuba_find` ORDER BY id   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `diuba_lost` WHERE ( isfinish=0 ) ORDER BY isfirst desc,id desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `diuba_find` WHERE ( isfinish=0 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: findnum C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 142 行.
+NOTIC: [8] Undefined variable: lostnum C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 143 行.
+NOTIC: [8] Undefined variable: all C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-10-31T17:18:38+08:00 ] ::1 /diuba/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\diuba\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `diuba_lost` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `diuba_find` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `diuba_lost` ORDER BY id   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `diuba_find` ORDER BY id   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `diuba_lost` WHERE ( isfinish=0 ) ORDER BY isfirst desc,id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `diuba_find` WHERE ( isfinish=0 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: findnum C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 142 行.
+NOTIC: [8] Undefined variable: lostnum C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 143 行.
+NOTIC: [8] Undefined variable: all C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-10-31T17:18:39+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+
+[ 2016-10-31T17:19:24+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2016-10-31T17:19:45+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2016-10-31T17:20:04+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-10-31T17:20:31+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2016-10-31T17:20:37+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2016-10-31T17:20:39+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2016-10-31T17:21:07+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2016-10-31T17:21:16+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2016-10-31T17:21:38+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2016-10-31T17:22:30+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: photo C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2016-10-31T17:23:08+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: photo C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2016-10-31T17:23:16+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savename C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001609s ]
+
+[ 2016-10-31T17:24:58+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: name C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-10-31T17:25:15+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savename C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 17 行.
+NOTIC: [2] Creating default object from empty value C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2016-10-31T17:25:35+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savename C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 17 行.
+NOTIC: [2] Creating default object from empty value C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2016-10-31T17:26:41+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: photo C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 17 行.
+NOTIC: [2] Creating default object from empty value C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-10-31T17:26:43+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: photo C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 17 行.
+NOTIC: [2] Creating default object from empty value C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2016-10-31T17:26:52+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: photo C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 17 行.
+NOTIC: [2] Creating default object from empty value C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2016-10-31T17:27:12+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: photo C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 18 行.
+NOTIC: [2] Creating default object from empty value C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2016-10-31T17:27:41+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Creating default object from empty value C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2016-10-31T17:28:38+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Creating default object from empty value C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2016-10-31T17:28:44+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Creating default object from empty value C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2016-10-31T17:30:40+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+
+[ 2016-10-31T17:30:49+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12372171834' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Creating default object from empty value C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 17 行.
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`createtime`) VALUES ('12372171834','hdjkashf','202cb962ac59075b964b07152d234b70','dkaj@qq','2016-10-31 17:30:49') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2016-10-31T17:30:50+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001478s ]
+
+[ 2016-10-31T17:31:30+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137500' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: file C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 15 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: file C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 17 行.
+NOTIC: [2] Creating default object from empty value C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 17 行.
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`createtime`) VALUES ('18941137500','fshajdk','202cb962ac59075b964b07152d234b70','diuu@ha','2016-10-31 17:31:30') [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2016-10-31T17:31:31+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-10-31T17:32:17+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2016-10-31T17:32:36+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014390s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137000' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: file C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 15 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: file C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 17 行.
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('18941137000','DKFALJ','202cb962ac59075b964b07152d234b70','dsuio@jjd',NULL,'2016-10-31 17:32:36') [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001752s ]
+
+[ 2016-10-31T17:32:37+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001827s ]
+
+[ 2016-10-31T17:33:42+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2016-10-31T17:34:03+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137590' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: file C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 15 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: file C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 17 行.
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('18941137590','sdfafdsafa','f1c1592588411002af340cbaedd6fc33','dshakj@sdfsjka',NULL,'2016-10-31 17:34:03') [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-10-31T17:34:04+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2016-10-31T17:35:11+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-10-31T17:35:50+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '12872171828' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: file C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 15 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: file C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 18 行.
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('12872171828','dhfkashj','202cb962ac59075b964b07152d234b70','dalf@jkdsfa',NULL,'2016-10-31 17:35:50') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-10-31T17:35:51+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001703s ]
+
+[ 2016-10-31T17:35:54+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2016-10-31T17:35:57+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+
+[ 2016-10-31T17:35:59+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001418s ]
+
+[ 2016-10-31T17:36:05+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001995s ]
+
+[ 2016-10-31T17:36:34+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001494s ]
+
+[ 2016-10-31T17:36:48+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '21839819221' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: file C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 18 行.
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('21839819221','dsjakfhk','698d51a19d8a121ce581499d7b701668','dkjfkas@jhdfksa',NULL,'2016-10-31 17:36:48') [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001015s ]
+
+[ 2016-10-31T17:36:49+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2016-10-31T17:37:45+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '13372171828' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('13372171828','adsjafkjhdks','202cb962ac59075b964b07152d234b70','dasjkfhjkds@sda','581710e93d4fc.jpeg','2016-10-31 17:37:45') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-10-31T17:37:46+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2016-10-31T17:43:38+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137576' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('18941137576','wangxu','202cb962ac59075b964b07152d234b70','wangxu@qq','5817124a94cf9.jpg','2016-10-31 17:43:38') [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2016-10-31T17:43:39+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-10-31T17:51:20+08:00 ] ::1 /diuba/admin/user/delUser($vo.id)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 4 C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-31T17:52:51+08:00 ] ::1 /diuba/admin/user/delUser($vo.id)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 4 C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-31T18:08:55+08:00 ] ::1 /diuba/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\diuba\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `diuba_lost` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `diuba_find` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `diuba_lost` ORDER BY id   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `diuba_find` ORDER BY id   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `diuba_lost` WHERE ( isfinish=0 ) ORDER BY isfirst desc,id desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `diuba_find` WHERE ( isfinish=0 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: findnum C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 142 行.
+NOTIC: [8] Undefined variable: lostnum C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 143 行.
+NOTIC: [8] Undefined variable: all C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2016-10-31T18:08:56+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2016-10-31T18:09:08+08:00 ] ::1 /diuba/Home/Users/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137571' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\diuba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `diuba_users` (`telephone`,`aliasname`,`password`,`email`,`photo`,`createtime`) VALUES ('18941137571','2131231','6c14da109e294d1e8155be8aa4b1ce8e','1231@123','5817184452008.jpg','2016-10-31 18:09:08') [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2016-10-31T18:09:09+08:00 ] ::1 /diuba/Home/Users/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Use of undefined constant register - assumed 'register' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\cadf8ee5853ee307883d6c8704e48fa4.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+

@@ -1,0 +1,36 @@
+[ 2016-11-03T13:21:41+08:00 ] ::1 /diuba/admin/user/users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `diuba_users` ORDER BY id asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000925s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000972s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001764s ]
+
+[ 2016-11-03T13:21:41+08:00 ] ::1 /diuba/admin/user/__PUBLIC_ta_/admin/assets/js/jquery-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+ERR: 非法操作:__PUBLIC_ta_
+
+[ 2016-11-03T13:21:41+08:00 ] ::1 /diuba/admin/user/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+

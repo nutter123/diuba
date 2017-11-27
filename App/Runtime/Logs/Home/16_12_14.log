@@ -1,0 +1,637 @@
+[ 2016-12-14T10:51:42+08:00 ] ::1 /diuba/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined variable: findnum C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 142 行.
+NOTIC: [8] Undefined variable: lostnum C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 143 行.
+NOTIC: [8] Undefined variable: all C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 144 行.
+NOTIC: [8] Undefined variable: lostlist C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 162 行.
+NOTIC: [8] Undefined variable: findlist C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001418s ]
+
+[ 2016-12-14T10:51:44+08:00 ] ::1 /diuba/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Use of undefined constant checkLogin - assumed 'checkLogin' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b85c7d4521605c805b2409b4b881b8b6.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-12-14T10:51:44+08:00 ] ::1 /diuba/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2016-12-14T10:51:55+08:00 ] ::1 /diuba/Home/Index/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137576' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0003s ]
+
+[ 2016-12-14T10:51:55+08:00 ] ::1 /diuba/Home/Goods/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137576' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `diuba_goods` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_goods` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: pageSize C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: records C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+NOTIC: [2] Division by zero C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SELECT * FROM `diuba_goods` ORDER BY id desc LIMIT 0,1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Use of undefined constant goodsadd - assumed 'goodsadd' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 168 行.
+NOTIC: [8] Use of undefined constant printQrcode - assumed 'printQrcode' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 185 行.
+NOTIC: [8] Undefined index: username C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 216 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2016-12-14T10:51:58+08:00 ] ::1 /diuba/Home/Users/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137576' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `diuba_find` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `diuba_find` ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `diuba_lost` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `diuba_lost` ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_find` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: pageSize C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: records C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 53 行.
+NOTIC: [2] Division by zero C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 53 行.
+SQL: SELECT * FROM `diuba_find` ORDER BY id asc LIMIT 0,1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_lost` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: pageSize C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: records C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 63 行.
+NOTIC: [2] Division by zero C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 63 行.
+SQL: SELECT * FROM `diuba_lost` ORDER BY id asc LIMIT 0,1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-12-14T10:52:20+08:00 ] ::1 /diuba/Home/Users/editUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137576' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Use of undefined constant doUpdate - assumed 'doUpdate' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\e37c66a69241dc701ab9d2c9f3aa8105.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2016-12-14T10:52:50+08:00 ] ::1 /diuba/Home/Goods/release.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: lostlist C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\ae236433b8f0acd4b6463ba879547391.php 第 149 行.
+NOTIC: [8] Undefined variable: lostlist C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\ae236433b8f0acd4b6463ba879547391.php 第 156 行.
+NOTIC: [8] Use of undefined constant dolostrelease - assumed 'dolostrelease' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\ae236433b8f0acd4b6463ba879547391.php 第 185 行.
+NOTIC: [8] Use of undefined constant dofindrelease - assumed 'dofindrelease' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\ae236433b8f0acd4b6463ba879547391.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2016-12-14T10:52:51+08:00 ] ::1 /diuba/Home/Users/userInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137576' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `diuba_find` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `diuba_find` ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `diuba_lost` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `diuba_lost` ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_find` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: pageSize C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: records C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 53 行.
+NOTIC: [2] Division by zero C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 53 行.
+SQL: SELECT * FROM `diuba_find` ORDER BY id asc LIMIT 0,1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_lost` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: pageSize C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: records C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 63 行.
+NOTIC: [2] Division by zero C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 63 行.
+SQL: SELECT * FROM `diuba_lost` ORDER BY id asc LIMIT 0,1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2016-12-14T10:53:31+08:00 ] ::1 /diuba/Home/Users/userInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137576' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `diuba_find` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `diuba_find` ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `diuba_lost` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `diuba_lost` ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_find` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: pageSize C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: records C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 53 行.
+NOTIC: [2] Division by zero C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 53 行.
+SQL: SELECT * FROM `diuba_find` ORDER BY id asc LIMIT 0,1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_lost` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: pageSize C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: records C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 63 行.
+NOTIC: [2] Division by zero C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 63 行.
+SQL: SELECT * FROM `diuba_lost` ORDER BY id asc LIMIT 0,1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-12-14T11:31:05+08:00 ] ::1 /diuba/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: findnum C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 142 行.
+NOTIC: [8] Undefined variable: lostnum C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 143 行.
+NOTIC: [8] Undefined variable: all C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 144 行.
+NOTIC: [8] Undefined variable: lostlist C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 162 行.
+NOTIC: [8] Undefined variable: findlist C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2016-12-14T11:31:07+08:00 ] ::1 /diuba/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Use of undefined constant checkLogin - assumed 'checkLogin' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b85c7d4521605c805b2409b4b881b8b6.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-12-14T11:31:07+08:00 ] ::1 /diuba/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-12-14T11:31:16+08:00 ] ::1 /diuba/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-12-14T11:31:21+08:00 ] ::1 /diuba/Home/Index/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137576' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0003s ]
+
+[ 2016-12-14T11:31:22+08:00 ] ::1 /diuba/Home/Goods/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137576' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `diuba_goods` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: pageSize C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: records C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+NOTIC: [2] Division by zero C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SELECT * FROM `diuba_goods` ORDER BY id desc LIMIT 0,1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Use of undefined constant goodsadd - assumed 'goodsadd' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 168 行.
+NOTIC: [8] Use of undefined constant printQrcode - assumed 'printQrcode' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 185 行.
+NOTIC: [8] Undefined index: username C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 216 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001594s ]
+
+[ 2016-12-14T11:31:27+08:00 ] ::1 /diuba/Home/Goods/release.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: lostlist C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\ae236433b8f0acd4b6463ba879547391.php 第 149 行.
+NOTIC: [8] Undefined variable: lostlist C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\ae236433b8f0acd4b6463ba879547391.php 第 156 行.
+NOTIC: [8] Use of undefined constant dolostrelease - assumed 'dolostrelease' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\ae236433b8f0acd4b6463ba879547391.php 第 185 行.
+NOTIC: [8] Use of undefined constant dofindrelease - assumed 'dofindrelease' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\ae236433b8f0acd4b6463ba879547391.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-12-14T12:18:33+08:00 ] ::1 /diuba/Home/Goods/release.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Undefined variable: lostlist C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\ae236433b8f0acd4b6463ba879547391.php 第 149 行.
+NOTIC: [8] Undefined variable: lostlist C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\ae236433b8f0acd4b6463ba879547391.php 第 156 行.
+NOTIC: [8] Use of undefined constant dolostrelease - assumed 'dolostrelease' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\ae236433b8f0acd4b6463ba879547391.php 第 185 行.
+NOTIC: [8] Use of undefined constant dofindrelease - assumed 'dofindrelease' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\ae236433b8f0acd4b6463ba879547391.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2016-12-14T13:18:44+08:00 ] ::1 /diuba/Home/Goods/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137576' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `diuba_goods` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_goods` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: pageSize C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: records C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+NOTIC: [2] Division by zero C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SELECT * FROM `diuba_goods` ORDER BY id desc LIMIT 0,1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Use of undefined constant goodsadd - assumed 'goodsadd' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 168 行.
+NOTIC: [8] Use of undefined constant printQrcode - assumed 'printQrcode' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 185 行.
+NOTIC: [8] Undefined index: username C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 216 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2016-12-14T14:43:52+08:00 ] ::1 /diuba/Home/Goods/goods/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137576' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `diuba_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_goods` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: pageSize C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: records C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+NOTIC: [2] Division by zero C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SELECT * FROM `diuba_goods` ORDER BY id desc LIMIT 1,1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Use of undefined constant goodsadd - assumed 'goodsadd' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 168 行.
+NOTIC: [8] Use of undefined constant printQrcode - assumed 'printQrcode' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 185 行.
+NOTIC: [8] Undefined index: username C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 216 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2016-12-14T14:43:54+08:00 ] ::1 /diuba/Home/Goods/goods/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137576' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `diuba_goods` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: pageSize C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: records C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+NOTIC: [2] Division by zero C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SELECT * FROM `diuba_goods` ORDER BY id desc LIMIT 0,1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Use of undefined constant goodsadd - assumed 'goodsadd' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 168 行.
+NOTIC: [8] Use of undefined constant printQrcode - assumed 'printQrcode' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 185 行.
+NOTIC: [8] Undefined index: username C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 216 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2016-12-14T15:33:04+08:00 ] ::1 /diuba/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: findnum C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 142 行.
+NOTIC: [8] Undefined variable: lostnum C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 143 行.
+NOTIC: [8] Undefined variable: all C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 144 行.
+NOTIC: [8] Undefined variable: lostlist C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 162 行.
+NOTIC: [8] Undefined variable: findlist C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001523s ]
+
+[ 2016-12-14T15:33:07+08:00 ] ::1 /diuba/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Use of undefined constant checkLogin - assumed 'checkLogin' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b85c7d4521605c805b2409b4b881b8b6.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2016-12-14T15:33:07+08:00 ] ::1 /diuba/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-12-14T15:33:15+08:00 ] ::1 /diuba/Home/Index/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137576' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0005s ]
+
+[ 2016-12-14T15:33:15+08:00 ] ::1 /diuba/Home/Goods/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137576' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `diuba_goods` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: pageSize C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: records C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+NOTIC: [2] Division by zero C:\xampp\htdocs\diuba\App\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SELECT * FROM `diuba_goods` ORDER BY id desc LIMIT 0,1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Use of undefined constant goodsadd - assumed 'goodsadd' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 168 行.
+NOTIC: [8] Use of undefined constant printQrcode - assumed 'printQrcode' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 185 行.
+NOTIC: [8] Undefined index: username C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b6ee958afc6bab35b4ef7aed02f4caf6.php 第 216 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-12-14T16:00:19+08:00 ] ::1 /diuba/Home/Users/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `diuba_users` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `diuba_users` WHERE `telephone` = '18941137576' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `diuba_find` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `diuba_find` ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `diuba_lost` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `diuba_lost` ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_find` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: pageSize C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: records C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 53 行.
+NOTIC: [2] Division by zero C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 53 行.
+SQL: SELECT * FROM `diuba_find` ORDER BY id asc LIMIT 0,1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_lost` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: pageSize C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: records C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 63 行.
+NOTIC: [2] Division by zero C:\xampp\htdocs\diuba\App\Home\Controller\UsersController.class.php 第 63 行.
+SQL: SELECT * FROM `diuba_lost` ORDER BY id asc LIMIT 0,1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+

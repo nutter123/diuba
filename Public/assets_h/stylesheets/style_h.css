@@ -1,0 +1,64 @@
+/*--
+
+--*/
+body{
+	font-family: 'Rokkitt', serif;
+}
+
+
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.rslides img {
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+}
+.caption{
+	width: 56%;
+	position: absolute;
+	top: 45%;
+	left: 20%;
+	text-align:center;
+}
+
+.mytable  {
+	margin: 8.5em 0 2.5em 0;
+	width: 100%;
+	margin-top:3%;
+	/*left: 30%;*/
+	text-align:center;
+}
+.services table th{
+	font-size:24px;
+	/*width:100px;*/
+	text-align:center
+}
+.services table td{
+	font-size:20px;
+	text-align:center
+}
+@media (max-width:760px){
+	.services table {
+		margin: 8.5em 0 2.5em 0;
+		width: 100%;
+		margin-top:7%;
+		text-align:center;
+	}
+	.services table th{
+		font-size:12px;
+		text-align:center
+	}
+	.services table td{
+		font-size:10px;
+		text-align:center
+	}
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <include file="Public/title" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <include file="Public/head" />
+  </head>
+  <body >
+    <div class="modal-shiftfix">
+      <!-- Navigation -->
+      <div class="navbar navbar-fixed-top scroll-hide">
+        <div class="container-fluid top-bar">
+          
+          <button class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>&nbsp;
+            <a href="{:U('Admin/index/index')}"><img   width="150px" id="logo_header" alt="80x80" src="__APP__/Public/assets_h/images/diuba_logo.png"></a>
+        </div>
+        <div class="container-fluid main-nav clearfix">
+          <div class="nav-collapse " style="padding-left: 20px">
+              <ul class="nav" >
+                  <li >
+                      <a class="current " style="font-family: SimHei;font-size: large" href="{:U('index')}">首页</a>
+                  </li>
+                  <li>
+                      <a  style="font-family: SimHei;font-size: large" href="{:U('login')}">登 录</a>
+                  </li>
+                  <li>
+                      <a style="font-family: SimHei;font-size: large" href="{:U('Users/reg')}">注 册</a>
+                  </li>
+                   <div class="search" style="min-width: 160px" >
+                          <form  style="min-width: 90px">
+                              <input style="min-width: 90px" type="text" value="搜索物品" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" >
+                              <input type="submit" value="">
+                          </form>
+                   </div>
+              </ul>
+           
+          </div>
+        </div>
+      </div>
+        <div class="carousel slide" id="carousel-example-generic">
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#carousel-example-generic"></li>
+                <li data-slide-to="1" data-target="#carousel-example-generic"></li>
+                <li data-slide-to="2" data-target="#carousel-example-generic"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="__APP__/Public/assets_h/images/p1.png">
+                </div>
+                <div class="item">
+                    <img src="__APP__/Public/assets_h/images/p2.png">
+                </div>
+                <div class="item">
+                    <img src="__APP__/Public/assets_h/images/p3.png">
+                </div>
+            </div>
+            <a class="left carousel-control" data-slide="prev" href="#carousel-example-generic"><span class="icon-angle-left"></span></a><a class="right carousel-control" data-slide="next" href="#carousel-example-generic"><span class="icon-angle-right"></span></a>
+        </div>
+        
+      <!-- End Navigation -->
+      <div class="container-fluid main-content">
+          <div  class="row">
+              <div class="services">
+                  <div class="slider">
+                      <div class="callbacks_container">
+                          <div class="slider">
+                              <div class="callbacks_container">
+                                  <ul class="rslides" id="slider">
+                                      <li>
+                                          <img src="__APP__/Public/assets_h/images/diuba_number.png">
+                                          <div class="caption">
+                                              <table class="mytable" border="0">
+                                                  <tr><th>招领启事</th><th>寻物启事</th><th>已完成</th></tr>
+                                                   <tr>
+                                                   <td>{$findnum}</td>
+                                                   <td>{$lostnum}</td>
+                                                   <td>{$all}</td></tr>
+                                              </table>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-12">
+              <div class="widget-container fluid-height">
+                  <div class="heading" style="color: #00b2f1;font-size: large;">
+                     最新寻物启事
+                  </div>
+                  <div class="widget-content padded">
+                      <ul class="gallery-grid clearfix">
+                          <volist name="lostlist" id="vo">
+                              <li>
+                                  <figure  style="height:200px">
+                                      <a href=""><img src="__PUBLIC__/Uploads/lostphoto/{$vo.picture}"></a>
+                                      <div class="caption">
+                                          <h4>
+                                              失物名称:{$vo.goods_name}
+                                          </h4>
+                                          <h4>
+                                              丢失地点:{$vo.place}
+                                          </h4>
+                                          <h4>
+                                              丢失时间:{$vo.createtime}
+                                          </h4>
+                                      </div>
+                                  </figure>
+                              </li>
+                          </volist>
+                      </ul>
+
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-12">
+              <div class="widget-container fluid-height">
+                  <div class="heading" style="color: #00b2f1;font-size: large;">
+                      最新招领启事
+                  </div>
+                  <div class="widget-content padded">
+                     <ul class="gallery-grid clearfix">
+                         <volist name="findlist" id="vo">
+                             <li>
+                                 <figure  style="height:200px">
+                                     <a href=""><img src="__PUBLIC__/Uploads/findphoto/{$vo.picture}"></a>
+                                     <div class="caption">
+                                   
+                                         <h4>
+                                             失物名称:{$vo.goods_name}
+                                         </h4>
+                                         <h4>
+                                             拾捡地点:{$vo.place}
+                                         </h4>
+                                         <h4>
+                                             拾捡时间:{$vo.finddate}
+                                         </h4>
+
+                                     </div>
+                                 </figure>
+                             </li>
+                         </volist>                         </ul>
+
+                  </div>
+              </div>
+          </div>
+     
+      </div>
+        <include file="Public/footer" />    
+    </div>
+  </body>
+
+</html>

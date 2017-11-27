@@ -1,0 +1,57 @@
+[ 2017-03-12T17:35:05+08:00 ] ::1 /diuba/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000896s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] Undefined variable: findnum C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 142 行.
+NOTIC: [8] Undefined variable: lostnum C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 143 行.
+NOTIC: [8] Undefined variable: all C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 144 行.
+NOTIC: [8] Undefined variable: lostlist C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 162 行.
+NOTIC: [8] Undefined variable: findlist C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2017-03-12T17:35:07+08:00 ] ::1 /diuba/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Use of undefined constant checkLogin - assumed 'checkLogin' C:\xampp\htdocs\diuba\App\Runtime\Cache\Home\b85c7d4521605c805b2409b4b881b8b6.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2017-03-12T17:35:07+08:00 ] ::1 /diuba/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+

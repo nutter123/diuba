@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <include file="Public/title" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <include file="Public/head" />
+   
+</head>
+<body>
+
+<div class="modal-shiftfix" id="all">
+    <div id="new_all" class="container center-block" style="display: none;">
+        <div align="center" style="margin-bottom: 20px">
+            <button class="btn btn-default " onclick="back()" id="back">返回</button>
+            <button class="btn btn-default " onclick="print()">打印</button>
+        </div>
+    </div>
+    <!-- Navigation -->
+    <div class="navbar navbar-fixed-top scroll-hide">
+        <div class="container-fluid top-bar">
+
+            <button class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>&nbsp;
+            <a href=""><img   width="150px" id="logo_header" alt="80x80" src="__APP__/Public/assets_h/images/diuba_logo.png"></a>
+        </div>
+        <div class="container-fluid main-nav clearfix">
+            <div class="nav-collapse " style="padding-left: 20px">
+                <ul class="nav" >
+                    <li >
+                        <a  style="font-family: SimHei;font-size: large" href="{:U('Index/index')}">首页</a>
+                  </li>
+              </ul>
+              
+            </div>
+
+
+        </div>
+    </div>
+            <div>
+              <ul>
+              <li>名字：{$goodsDetail.goods_name}</li>
+              <li>联系人：{$goodsDetail.username}</li>
+              <li>联系电话:{$goodsDetail.telephone}</li>
+              <li>邮箱:{$goodsDetail.email}</li>
+              <li>备注：{$goodsDetail.note}</li>
+              </ul>
+              </div>
+
+    <br>
+    <div class="container-fluid main-content"  style="min-height:560px">
+       
+    </div>
+
+    <br>
+   
+    <include file="Public/footer" />
+</div>
+
+<!--<include file="Public/footer" />-->
+</body>
+
+</html>
